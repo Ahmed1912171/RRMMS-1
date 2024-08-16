@@ -1,0 +1,71 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-size: small;
+    height: 80vh;
+    width: auto;
+}
+
+.navbar{
+    padding:0px 0rem;
+}
+.navbar-nav {
+display: flex;
+justify-content: center;
+width: 100%;
+padding:0px 0rem;
+}
+h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+.navbar-nav .nav-item {
+margin: 0 2px;
+}
+th {
+    background-color:#78f166;
+}
+.btn-custom {
+    background-color: #78f166;
+    border-color: #78f166;
+    color: rgb(0, 0, 0);
+    width: 100px;
+}
+.btn-custom:hover {
+    background-color: #66d957;
+    border-color: #66d957;
+}
+
+.table thead tr th {
+    background-color:#6cb444;
+    cursor: pointer;
+}
+.container{
+    height: 50vh;
+    width: 70vw;
+}
+
+table#example th, table#example td {
+    padding: 4px 5px; /* Adjust the padding values as needed */
+  }
+
+  #username {
+    margin-right: 0.5rem; /* Equivalent to the Bootstrap class 'me-2' */
+    white-space: nowrap;  /* Equivalent to the Bootstrap class 'text-nowrap' */
+}
+
+
+.pagination > li > a,
+.pagination > li > span {
+    background-color: rgb(255, 255, 255);
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.pagination > li.active > a,
+.pagination > li.active > span {
+    background-color:#6cb444;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+}
